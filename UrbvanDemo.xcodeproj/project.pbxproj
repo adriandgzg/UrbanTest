@@ -16,6 +16,7 @@
 		9CB44A97279B2F690004A4E9 /* UrbvanDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB44A96279B2F690004A4E9 /* UrbvanDemoTests.swift */; };
 		9CB44AA1279B2F690004A4E9 /* UrbvanDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB44AA0279B2F690004A4E9 /* UrbvanDemoUITests.swift */; };
 		9CB44AA3279B2F690004A4E9 /* UrbvanDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB44AA2279B2F690004A4E9 /* UrbvanDemoUITestsLaunchTests.swift */; };
+		9CB44AB1279B32460004A4E9 /* ISSTrackerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB44AB0279B32460004A4E9 /* ISSTrackerManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9CB44A9C279B2F690004A4E9 /* UrbvanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UrbvanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CB44AA0279B2F690004A4E9 /* UrbvanDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbvanDemoUITests.swift; sourceTree = "<group>"; };
 		9CB44AA2279B2F690004A4E9 /* UrbvanDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbvanDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CB44AB0279B32460004A4E9 /* ISSTrackerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSTrackerManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		9CB44A7E279B2F670004A4E9 /* UrbvanDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9CB44AAF279B30880004A4E9 /* Repository */,
 				9CB44A7F279B2F670004A4E9 /* AppDelegate.swift */,
 				9CB44A81279B2F670004A4E9 /* SceneDelegate.swift */,
 				9CB44A83279B2F670004A4E9 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				9CB44AA2279B2F690004A4E9 /* UrbvanDemoUITestsLaunchTests.swift */,
 			);
 			path = UrbvanDemoUITests;
+			sourceTree = "<group>";
+		};
+		9CB44AAF279B30880004A4E9 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				9CB44AB0279B32460004A4E9 /* ISSTrackerManager.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB44AB1279B32460004A4E9 /* ISSTrackerManager.swift in Sources */,
 				9CB44A84279B2F670004A4E9 /* ViewController.swift in Sources */,
 				9CB44A80279B2F670004A4E9 /* AppDelegate.swift in Sources */,
 				9CB44A82279B2F670004A4E9 /* SceneDelegate.swift in Sources */,
